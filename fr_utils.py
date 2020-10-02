@@ -88,7 +88,7 @@ WEIGHTS = [
 ]
 
 
-def load_weights_from_FaceNet(FRmodel):
+def load_weights(FRmodel):
     # Load weights from csv files (which was exported from Openface torch model)
     weights = WEIGHTS
     # open a file, where you stored the pickled data
